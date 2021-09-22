@@ -175,13 +175,21 @@
     
     <blockquote cite="https://test.com">Test para blockquote, acá se supone deben ir citas de libros o artículos cuando cree alguno.</blockquote>
     
-    <pre>Test for having code preformatted
     <code>
-    <h1>This is a title test for code preformatted</h1>
-    <p>Here should be a Lorem but it's not available in this editor</p>
+        <pre>
+            &#60p&#62 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus laborum repudiandae repellendus, alias sapiente provident eaque at! Molestiae, ipsam officiis! Enim quam omnis consequuntur maiores totam, a nobis commodi dolorem? &#60/p&#62
+        </pre>
     </code>
-    </pre>
     
+    <div>
+        <p>Test for div</p>
+    </div>
+
+    <hr>
+
+    <span>
+        <p>Test for span</p>
+    </span>
     <q>Test for in line quote. La vita e bella</q>
     
     <form>
@@ -304,6 +312,103 @@
     <input type="checkbox" name="test">
     <label>Test 2</label>
     <input type="checkbox" name="test">
+    <br>
+
+    <label for="select-test">Test select</label>
+    <select name="select" id="select-test-">
+        <optgroup label="Test for this">
+        <option value="select-test">Option 1</option>
+        <option value="select-test">Option 2</option>
+        </optgroup>
+        <optgroup label="Test for that">
+        <option value="select-test" selected>Option 3</option>
+        <option value="select-test">Option 4</option>
+        </optgroup>
+    </select>
+
+    <input type="list" list="Test for datalist">
+    <datalist id="Test for datalist">test
+    <optgroup label="Test for this">
+        <option value="select-test">Option 1</option>
+        <option value="select-test">Option 2</option>
+        </optgroup>
+        <optgroup label="Test for that">
+        <option value="select-test">Option 3</option>
+        <option value="select-test">Option 4</option>
+        </optgroup>
+    </datalist>
+
+
+    <fieldset>
+        <legend>Test for legend</legend>
+        <div>
+            <label for="Test for fieldset">Test for fieldset</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="Test for fieldset">Test 2 for fieldset</label>
+            <input type="text">
+        </div>
+    </fieldset>
+
+    <div>
+        <label for="file">Adjunte aquí su archivo</label>
+        <input type="file">
+    </div>
+
+    <div>
+        <label for="test for meter">Combustible</label>
+        <meter id="test for meter" min="0" max="100" low="20" high="90" optimum="60" value="19"></meter>
+        
+    </div>
+
+    <div>
+        <label for="task progress">Task progress</label>
+    <progress id="task" max="100" value="51"></progress>
+    </div>
+
+    <div>
+        <label for="textarea">Mensaje</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <button>Enviar</button>
+    </div>
+
+    <div>
+        <label for="placeholder">Llene el siguiente campo</label>
+        <input type="text" placeholder="You dumb or what?">
+        <button>Enviar</button>
+    </div>
+
+    <div>
+        <label for="required">Llene el siguiente campo</label>
+        <input type="text" placeholder="You better fill this goddamn camp you prick" required>
+        <button>Enviar</button>
+    </div>
+
+    <div>
+        <label for="readonly">Llene el siguiente campo</label>
+        <input type="text" readonly placeholder="No hay una mondá acá">
+        <button>Enviar</button>
+    </div>
+
+    <div>
+        <label for="min-max">Llene el siguiente campo</label>
+        <input type="number" min="5" max="15" placeholder="">
+        <button>Enviar</button>
+    </div>
+
+    <div>
+        <label for="minl-maxl">Llene el siguiente campo</label>
+        <input type="text" minlength="2" maxlength="10" placeholder="" autofocus>
+        <button>Enviar</button>
+    </div>
+
+    <div>
+        <label for="disabled">Llene el siguiente campo</label>
+        <input type="text" minlength="2" maxlength="10" placeholder="" disabled>
+        <button>Enviar</button>
+    </div>
+
 
     <footer>Footer test</footer>
 </body>
