@@ -1,0 +1,46 @@
+*{
+    background-color: #edddd4;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo{
+    color: darkgreen;
+    text-align: center;
+    text-shadow: 2px 2px 2px hsla(22, 13%, 34%, 0.5);
+    font-size: 4vw;
+}
+
+.centrar{
+    margin: auto;
+    /* text-align: center; */
+}
+
+
+
+p{
+    color: #967e71;
+    text-shadow: 3px 3px 3px hsla(22, 13%, 34%, 0.5);
+    font-size: 2vw;
+    background-color: #333;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 18px;
+    width: 70%;
+    text-align: justify;
+    text-indent: 15px;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+.bi-arrow-right-circle-fill{
+    font-size: 1.5em;
+    color: darkolivegreen;
+    background-color: #333;
+    
+
+
+}
