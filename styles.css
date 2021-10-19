@@ -49,6 +49,11 @@ ul{
     list-style: none;
 }
 
+ul.ufooter2{
+    padding: 0;
+    display: inline-block;
+}
+
 li{
     display: inline-block;
     padding: 0px 5px;
@@ -179,3 +184,32 @@ a.s-link{
     left: 3px;
     color: #1A0DAB;
 }
+
+
+.footer1{
+    background-color: #70757a18;
+    position: relative;
+    top: 210px;
+    margin-left: -10px;
+    width: 96.82%;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #707070;
+    border-bottom: 1px solid #dadce9;
+
+}
+
+.footer2{
+    background-color: #70757a18;
+    position: relative;
+    top: 200px;
+    margin-left: -10px;
+    width: 96.82%;
+    padding: 1px;
+    font-size: 15px;
+    color: #707070;
+    border-bottom: 1px solid #dadce9;
+}
+
+
+
