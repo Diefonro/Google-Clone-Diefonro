@@ -127,3 +127,6 @@ input:hover{
     width: 13px;
 }
 
+.mic:hover{
+    cursor: pointer;
+}
