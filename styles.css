@@ -81,6 +81,7 @@ a:visited{
 .container button{
     position: relative;
 }
+
 img.logo{
     position: relative;
     top: -1px;    
@@ -96,7 +97,7 @@ img.logo{
 .input input{
     position: relative;
     top: 2px;
-    left: 10px;
+    left: 1px;
     width: 580px;
     height: 42px;
     border-radius: 50px;
@@ -119,6 +120,10 @@ input:hover{
     opacity: 40%;
 }
 
-img.mic{
+/* .mic{
+    position: absolute;
+    z-index: 3;
+    top: 191px;
+    right: 380px;
     width: 15px;
-}
+} */
