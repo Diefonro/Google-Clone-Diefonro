@@ -50,8 +50,25 @@ ul{
 }
 
 ul.ufooter2{
-    padding: 0;
     display: inline-block;
+    margin: 0;
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+
+ul.ufooter3 {
+    display: inline-block;
+    justify-content: end;
+    margin-left: 50%;
+    color: #707070;
+}
+
+ul.ufooter2 a{
+    color: #707070;
+}
+ul.ufooter3 a{
+    color: #707070;
 }
 
 li{
@@ -179,6 +196,11 @@ button:hover{
     right: 2px;
 }
 
+.s-col{
+    position: relative;
+    bottom: 1px;
+    left: 2px;
+}
 a.s-link{
     position: relative;
     left: 3px;
@@ -189,27 +211,68 @@ a.s-link{
 .footer1{
     background-color: #70757a18;
     position: relative;
-    top: 210px;
+    top: 207px;
     margin-left: -10px;
     width: 96.82%;
     padding: 15px 30px;
     font-size: 15px;
     color: #707070;
     border-bottom: 1px solid #dadce9;
+    margin-bottom: 0;
 
 }
 
 .footer2{
     background-color: #70757a18;
     position: relative;
-    top: 200px;
+    top: 207px;
     margin-left: -10px;
-    width: 96.82%;
-    padding: 1px;
-    font-size: 15px;
+    width: 101%;
+    line-height: 11px;
+    font-size: 14px;
     color: #707070;
     border-bottom: 1px solid #dadce9;
+    margin-top: 0;
 }
 
+.lf31{
+    position: relative;
+    bottom: 2px;
+    right: 9px;
+}
 
+.lf32{
+    position: relative;
+    bottom: 2px;
+    left: 6px;
+}
 
+.lf33{
+    position: relative;
+    bottom: 2px;
+    left: 21px;
+}
+
+.lf34{
+    position: relative;
+    bottom: 2px;
+    left: 37px;
+}
+
+.lf35{
+    position: relative;
+    top: 3px;
+    left: 12px;
+}
+
+.lf36{
+    position: relative;
+    top: 3px;
+    left: 28px;
+}
+
+.lf37{
+    position: relative;
+    top: 3px;
+    left: 43px;
+}
