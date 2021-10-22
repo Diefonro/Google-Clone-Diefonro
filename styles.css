@@ -264,11 +264,11 @@
     bottom: 0;
     width: 100%;
     left: 0;
-    height: fit-content;
-    height: -moz-fit-content;
+    /* height: fit-content;
+    height: -moz-fit-content; */
   }
   
-  footer{
+  /* footer{
     position: relative;
     width: 100vw;
-  }
+  } */
