@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Google Clone Optimized (by Diefonro)</title>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -19,10 +19,10 @@
     <script>
       $(document).ready(function () {
         let dict = {
-          "Images": {
+          Images: {
             es: "Imágenes",
           },
-          "Search": {
+          Search: {
             es: "Búsqueda",
           },
           "Google Search": {
@@ -30,27 +30,37 @@
           },
           "I'm Feeling Lucky": {
             es: "Me siento con suerte",
-          }, "About": {
-            es: "Sobre Google"
-          }, "Google offered in:" :{
-            es: "Ofrecido por Google en:"
-          }, "Español (Latinoamérica)" :{
-            es: "English"
-          },  "Calendar" :{
-            es: "Calendario"
-          },  "Advertising" :{
-            es: "Publicidad"
-          },  "Business" :{
-            es: "Negocios"
-          },  "How Search works" :{
-            es: "Cómo funciona la búsqueda"
-          },  "Privacy" :{
-            es: "Privacidad"
-          },  "Terms" :{
-            es: "Condiciones"
-          },  "Settings" :{
-            es: "Preferencias"
-          }, 
+          },
+          About: {
+            es: "Sobre Google",
+          },
+          "Google offered in:": {
+            es: "Ofrecido por Google en:",
+          },
+          "Español (Latinoamérica)": {
+            es: "English",
+          },
+          Calendar: {
+            es: "Calendario",
+          },
+          Advertising: {
+            es: "Publicidad",
+          },
+          Business: {
+            es: "Negocios",
+          },
+          "How Search works": {
+            es: "Cómo funciona la búsqueda",
+          },
+          Privacy: {
+            es: "Privacidad",
+          },
+          Terms: {
+            es: "Condiciones",
+          },
+          Settings: {
+            es: "Preferencias",
+          },
         };
 
         let translator = $("body").translate({ lang: "es", t: dict });
@@ -76,18 +86,19 @@
                 />
               </div>
               <div class="drop-d">
-                <div class="dd-item">
+                <div class="dd-item" onclick="clickSearch()">
                   <img
                     id="dd-search"
                     src="assets/icons/google-logo-dd.png"
                     alt="google-search-icon"
                   />
-                  <p class="trn">Search</p>
+                  <p>Search</p>
                 </div>
                 <div class="dd-item">
                   <img
                     id="dd-maps"
                     src="assets/icons/google-maps-dd.png"
+                    onclick="clickMaps()"
                     alt="google-maps-icon"
                   />
                   <p>Maps</p>
@@ -96,6 +107,7 @@
                   <img
                     id="dd-keep"
                     src="assets/icons/google-keep-dd.png"
+                    onclick="clickKeep()"
                     alt="google-keep-icon"
                   />
                   <p>Keep</p>
@@ -104,6 +116,7 @@
                   <img
                     class="dd-drive"
                     src="assets/icons/Google_Drive_dd.png"
+                    onclick="clickDrive()"
                     alt="google-keep-icon"
                   />
                   <p>Drive</p>
@@ -112,14 +125,16 @@
                   <img
                     class="dd-calendar"
                     src="assets/icons/512px-Google_Calendar_icon_dd.png"
+                    onclick="clickCalendar()"
                     alt="google-calendar-icon"
                   />
-                  <p class="trn">Calendar</p>
+                  <p>Calendar</p>
                 </div>
                 <div class="dd-item">
                   <img
                     class="dd-photos"
                     src="assets/icons/google_photos-dd.png"
+                    onclick="clickPhotos()"
                     alt="google-photos-icon"
                   />
                   <p>Photos</p>
@@ -129,6 +144,7 @@
             <img
               id="profile-pic"
               src="assets/icons/account_circle_black_24dp.svg"
+              onclick="clickAccount()"
               alt="account-icon"
             />
           </div>
@@ -165,7 +181,9 @@
         <span class="s-lang"
           ><p class="ps-lang trn">Google offered in:</p>
           <a href="index.html" id="s-link"
-            ><span class="ll"><p class="ps-lang trn">Español (Latinoamérica)</p></span></a
+            ><span class="ll"
+              ><p class="ps-lang trn">Español (Latinoamérica)</p></span
+            ></a
           >
         </span>
       </section>
