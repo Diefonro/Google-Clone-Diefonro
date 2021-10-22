@@ -199,9 +199,9 @@ input {
   display: inline-block;
 }
 
-.dd-cont:hover .drop-d {
+/* .dd-cont:hover .drop-d {
   display: block;
-}
+} */
 
 .s-lang {
   font-size: 13px;

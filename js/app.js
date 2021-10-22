@@ -25,3 +25,8 @@ function clickPhotos() {
 function clickAccount() {
   window.location = "https://myaccount.google.com";
 }
+
+function clickDD() {
+    const dropdown = document.querySelector('.drop-d');
+  dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
