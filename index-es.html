@@ -19,10 +19,10 @@
     <script>
       $(document).ready(function () {
         let dict = {
-          Images: {
+          "Images": {
             es: "Imágenes",
           },
-          Search: {
+          "Search": {
             es: "Búsqueda",
           },
           "Google Search": {
@@ -31,7 +31,7 @@
           "I'm Feeling Lucky": {
             es: "Me siento con suerte",
           },
-          About: {
+          "About": {
             es: "Sobre Google",
           },
           "Google offered in:": {
@@ -40,26 +40,47 @@
           "Español (Latinoamérica)": {
             es: "English",
           },
-          Calendar: {
+          "Calendar": {
             es: "Calendario",
           },
-          Advertising: {
+          "Advertising": {
             es: "Publicidad",
           },
-          Business: {
+          "Business": {
             es: "Negocios",
           },
           "How Search works": {
             es: "Cómo funciona la búsqueda",
           },
-          Privacy: {
+          "Privacy": {
             es: "Privacidad",
           },
-          Terms: {
+          "Terms": {
             es: "Condiciones",
           },
-          Settings: {
+          "Settings": {
             es: "Preferencias",
+          },
+          "Your Name": {
+            es: "Su nombre",
+          }, 
+          "yourmail@mail.com": {
+            es: "sucorreo@correo.com",
+          },
+          "Manage your Google Account": {
+            es: "Administre su cuenta de Google",
+          },
+          "Add another account": {
+            es: "Agregue otra cuenta",
+          },
+          "Sign out": {
+            es: "Salir",
+          },
+          "Privacy Policy": {
+            es: "Política de Privacidad",
+          },
+          "Terms of Service": {
+            es: "Términos del Servicio",
           },
         };
 
@@ -92,7 +113,7 @@
                     src="assets/icons/google-logo-dd.png"
                     alt="google-search-icon"
                   />
-                  <p>Search</p>
+                  <p class="trn">Search</p>
                 </div>
                 <div class="dd-item">
                   <img
@@ -128,7 +149,7 @@
                     onclick="clickCalendar()"
                     alt="google-calendar-icon"
                   />
-                  <p>Calendar</p>
+                  <p class="trn">Calendar</p>
                 </div>
                 <div class="dd-item">
                   <img
@@ -141,12 +162,44 @@
                 </div>
               </div>
             </div>
-            <img
-              id="profile-pic"
-              src="assets/icons/account_circle_black_24dp.svg"
-              onclick="clickAccount()"
-              alt="account-icon"
-            />
+            <div class="acc-dd-cont">
+              <div class="accimg">
+                <img
+                  onclick="clickACC()"
+                  id="profile-pic"
+                  src="assets/icons/account_circle_black_24dp.svg"
+                  alt="account-icon"
+                />
+              </div>
+              <div class="acc-dd">
+                <div class="part-1">
+                  <div class="profile-pic-dd">
+                    <img
+                      src="assets/icons/account_circle_black_24dp.svg"
+                      alt="Profile-Picture"
+                    />
+                  </div>
+                  <p class="p1-accdd trn">Your Name</p>
+                  <p class="p2-accdd trn">yourmail@mail.com</p>
+                  <div class="acc-text trn">Manage your Google Account</div>
+                </div>
+                <div class="part-2">
+                  <img
+                    src="assets/icons/person_add_alt_black_24dp.svg"
+                    alt="add-person"
+                  />
+                  <p class="trn">Add another account</p>
+                </div>
+                <div class="part-3">
+                  <button class="trn">Sign out</button>
+                </div>
+                <div class="part-4" style="position:relative; right: 23px; top: 39px;">
+                  <a href="#" class="p1-p4 trn">Privacy Policy</a>
+                  <p class="p2-p4">•</p>
+                  <a href="#" class="p3-p4 trn">Terms of Service</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -196,16 +249,16 @@
         <div class="bottom-footer">
           <div class="left-footer">
             <div class="a-li">
-              <a href="" class="trn">About</a>
-              <a href="" class="trn">Advertising</a>
-              <a href="" class="trn">Business</a>
-              <a href="" class="trn">How Search works</a>
+              <a class="trn" href="https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+              <a class="trn" href="https://ads.google.com/intl/en_co/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+              <a class="trn" href="https://smallbusiness.withgoogle.com/intl/es-419_co/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CO#!/">Business</a>
+              <a class="trn" href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
             </div>
           </div>
           <div class="right-footer">
-            <a href="" class="trn">Privacy</a>
-            <a href="" class="trn">Terms</a>
-            <a href="" class="trn">Settings</a>
+            <a  class="trn" href="https://policies.google.com/privacy?hl=en-CO&fg=1">Privacy</a>
+            <a class="trn" href="https://policies.google.com/terms?hl=en-CO&fg=1">Terms</a>
+            <a class="trn" href="">Settings</a>
           </div>
         </div>
       </div>
