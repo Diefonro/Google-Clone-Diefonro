@@ -51,9 +51,8 @@
   input{
     position: relative;
     bottom: 2px;
-    width: 80%;
+    width: 87%;
     word-wrap: break-word;
-    /* max-width: 90%; */
     line-height: 17px;
     border: none;
     outline: none;
@@ -84,14 +83,14 @@
     position: absolute;
     top: 10px;
     right: 11px;
-    width: 23px;
+    width: 21px;
   }
 
   .input-cont .search-i {
     position: absolute;
-    top: 10px;
-    left: 11px;
-    max-width: 7.4%;
+    top: 12px;
+    left: 15px;
+    max-width: 20px;
     opacity: 40%;
   }
   
@@ -286,3 +285,16 @@
     display: none;
   }
   
+
+  @media screen and (min-width: 280px) and (max-width: 325px){
+    
+    input{
+      width: 75%;
+    }
+
+    .drop-d{
+      width: 200px;
+    }
+
+  
+  }
