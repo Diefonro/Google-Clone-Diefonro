@@ -30,3 +30,8 @@ function clickDD() {
     const dropdown = document.querySelector('.drop-d');
   dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
 }
+
+function clickACC(){
+  const account = document.querySelector(".acc-dd");
+  account.style.display = account.style.display === 'block' ? 'none' : 'block';
+}
