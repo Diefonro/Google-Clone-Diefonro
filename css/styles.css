@@ -179,6 +179,7 @@
     display: inline-block;
     width: 70px;
     padding: 6px 3px;
+    font-size: 14px;
   }
   
   .dd-item > img {
@@ -208,7 +209,7 @@
     top: 30px;
     right: 3px;
   }
-  
+
   .s-lang a {
     text-decoration: underline;
   }
@@ -216,6 +217,9 @@
     color: rgb(30, 30, 179);
   }
   
+  .ps-lang{
+    display: inline-block;
+  }
   .ll {
     display: inline-block;
     position: relative;

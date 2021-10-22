@@ -4,13 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google Clone Optimized (by Diefonro)</title>
     <link rel="shortcut icon" href="assets/icons/favicon.ico" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Google Clone Optimized (by Diefonro)</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        let dict = {
+          "Images": {
+            es: "Imágenes",
+          },
+          "Search": {
+            es: "Búsqueda",
+          },
+          "Google Search": {
+            es: "Buscar con Google",
+          },
+          "I'm Feeling Lucky": {
+            es: "Me siento con suerte",
+          }, "About": {
+            es: "Sobre Google"
+          }, "Google offered in:" :{
+            es: "Ofrecido por Google en:"
+          }, "Español (Latinoamérica)" :{
+            es: "English"
+          },  "Calendar" :{
+            es: "Calendario"
+          },  "Advertising" :{
+            es: "Publicidad"
+          },  "Business" :{
+            es: "Negocios"
+          },  "How Search works" :{
+            es: "Cómo funciona la búsqueda"
+          },  "Privacy" :{
+            es: "Privacidad"
+          },  "Terms" :{
+            es: "Condiciones"
+          },  "Settings" :{
+            es: "Preferencias"
+          }, 
+        };
+
+        let translator = $("body").translate({ lang: "es", t: dict });
+        translator.lang("es");
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -18,7 +64,7 @@
         <div class="nav">
           <div id="nav-g-i">
             <a class="menu-item" href="https://mail.google.com">Gmail</a>
-            <a class="menu-item" href="https://google.com/imghp">Images</a>
+            <a class="menu-item trn" href="https://google.com/imghp">Images</a>
           </div>
           <div class="" id="nav-gr-a">
             <div class="dd-cont">
@@ -36,14 +82,13 @@
                     src="assets/icons/google-logo-dd.png"
                     alt="google-search-icon"
                   />
-                  <p>Search</p>
+                  <p class="trn">Search</p>
                 </div>
                 <div class="dd-item">
                   <img
                     id="dd-maps"
                     src="assets/icons/google-maps-dd.png"
                     alt="google-maps-icon"
-                    
                   />
                   <p>Maps</p>
                 </div>
@@ -69,7 +114,7 @@
                     src="assets/icons/512px-Google_Calendar_icon_dd.png"
                     alt="google-calendar-icon"
                   />
-                  <p>Calendar</p>
+                  <p class="trn">Calendar</p>
                 </div>
                 <div class="dd-item">
                   <img
@@ -114,13 +159,13 @@
           />
         </div>
         <div class="btn-cont">
-          <button class="custom-btn">Google Search</button>
-          <button class="custom-btn custom-btn-l">I'm Feeling Lucky</button>
+          <button class="custom-btn trn">Google Search</button>
+          <button class="custom-btn trn custom-btn-l">I'm Feeling Lucky</button>
         </div>
         <span class="s-lang"
-          >Google offered in:
-          <a href="index-es.html" class="s-link"
-            ><span class="ll">Español (Latinoamérica)</span></a
+          ><p class="ps-lang trn">Google offered in:</p>
+          <a href="index.html" id="s-link"
+            ><span class="ll"><p class="ps-lang trn">Español (Latinoamérica)</p></span></a
           >
         </span>
       </section>
@@ -133,19 +178,21 @@
         <div class="bottom-footer">
           <div class="left-footer">
             <div class="a-li">
-              <a href="">About</a>
-              <a href="">Advertising</a>
-              <a href="">Business</a>
-              <a href="">How Search works</a>
+              <a href="" class="trn">About</a>
+              <a href="" class="trn">Advertising</a>
+              <a href="" class="trn">Business</a>
+              <a href="" class="trn">How Search works</a>
             </div>
           </div>
           <div class="right-footer">
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
+            <a href="" class="trn">Privacy</a>
+            <a href="" class="trn">Terms</a>
+            <a href="" class="trn">Settings</a>
           </div>
         </div>
       </div>
     </footer>
+    <script src="js/jquery.translate.js"></script>
+    <script src="js/translatejs.jquery.json"></script>
   </body>
 </html>
