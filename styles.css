@@ -3,7 +3,6 @@
   }
   
   html{
-    /* height: 100vh; */
     min-width: 100vw;
     overflow-y: hidden;
   }
@@ -48,11 +47,12 @@
     top: 24px;
   }
   
-  .input-g {
+  input{
     position: relative;
     bottom: 2px;
-    width: 50%;
-    min-width: 500px;
+    width: 80%;
+    word-wrap: break-word;
+    /* max-width: 90%; */
     line-height: 17px;
     border: none;
     outline: none;
@@ -60,7 +60,7 @@
   
   .input-cont {
     max-width: 553px;
-    width: 65%;
+    width: 70%;
     height: 16px;
     position: relative;
     bottom: 2px;
@@ -90,7 +90,7 @@
     position: absolute;
     top: 10px;
     left: 11px;
-    width: 23px;
+    max-width: 7.4%;
     opacity: 40%;
   }
   
@@ -222,7 +222,7 @@
   .top-footer,
   .bottom-footer {
     font-size: 15px;
-    background-color: #d6d8da49;
+    background-color: #f3f3f3;
     color: #8a8686;
     position: relative;
   }
@@ -275,11 +275,6 @@
     bottom: 0;
     width: 100%;
     left: 0;
-    /* height: fit-content;
-    height: -moz-fit-content; */
+
   }
   
-  /* footer{
-    position: relative;
-    width: 100vw;
-  } */
