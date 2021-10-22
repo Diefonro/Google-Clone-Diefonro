@@ -52,7 +52,7 @@
     position: relative;
     bottom: 2px;
     width: 50%;
-    max-width: 500px;
+    min-width: 500px;
     line-height: 17px;
     border: none;
     outline: none;
