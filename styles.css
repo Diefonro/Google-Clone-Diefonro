@@ -170,8 +170,9 @@
   }
   
   .dd-item:hover {
-    border: 1px solid rgba(63, 61, 61, 0.2);
+    /* border: 1px solid rgba(63, 61, 61, 0.2); */
     border-radius: 8px;
+    background-color: rgba(108, 157, 202, 0.246);
   }
   
   .dd-item {
