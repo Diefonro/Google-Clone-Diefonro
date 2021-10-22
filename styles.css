@@ -160,6 +160,8 @@
     right: 11px;
     border-radius: 12px;
     display: none;
+    z-index: 1;
+    background-color: #fff;
   }
   
   .grid:hover {
