@@ -46,7 +46,7 @@
   .input-g {
     position: relative;
     bottom: 2px;
-    width: 500px;
+    max-width: 500px;
     line-height: 17px;
     border: none;
     outline: none;
