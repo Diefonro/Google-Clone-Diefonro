@@ -21,3 +21,7 @@ function clickCalendar(){
 function clickPhotos(){
     window.location = "https://photos.google.com";
 }
+
+function clickAccount(){
+    window.location = "https://myaccount.google.com";
+}
