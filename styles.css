@@ -4,6 +4,7 @@
   
   html{
     height: 100vh;
+    overflow-y: hidden;
   }
   body {
     font-family: Arial, sans-serif;
@@ -215,23 +216,24 @@
     background-color: #d6d8da49;
     color: #8a8686;
     position: relative;
-    top: 200px;
   }
 
   .top-footer{
     border-bottom: 1px solid rgba(155, 155, 155, 0.267);
+
   }
   
   .left-footer a {
     display: inline-block;
     text-decoration: none;
-    padding: 12px;
+    padding: 14.5px;
     font-size: 14px;
   }
   
   .right-footer a {
     font-size: 14px;
-    padding: 14px;
+    margin-right: 10px;
+    padding: 13px;
     text-decoration: none;
     color: #8a8686;
   }
