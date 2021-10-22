@@ -22,6 +22,7 @@
     position: relative;
     top: 2px;
     right: 23px;
+    color: rgb(34, 33, 33);
   }
   
   #nav-gr-a {
@@ -169,7 +170,7 @@
   }
   
   .dd-item:hover {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(63, 61, 61, 0.2);
     border-radius: 8px;
   }
   
