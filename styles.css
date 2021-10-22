@@ -52,7 +52,7 @@
   }
   
   .input-cont {
-    width: 553px;
+    max-width: 553px;
     height: 16px;
     position: relative;
     bottom: 2px;
