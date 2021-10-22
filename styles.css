@@ -53,6 +53,7 @@
   
   .input-cont {
     max-width: 553px;
+    width: 50%;
     height: 16px;
     position: relative;
     bottom: 2px;
@@ -71,21 +72,22 @@
     border-color: rgba(40, 40, 41, 0);
   }
   
-  .input-cont > img {
+  .input-cont .mic {
     position: absolute;
     top: 10px;
     right: 11px;
     width: 23px;
   }
-  
+
   .input-cont .search-i {
     position: absolute;
-    top: 11.5px;
-    right: 547px;
-    width: 20px;
+    top: 10px;
+    left: 11px;
+    width: 23px;
     opacity: 40%;
   }
   
+
   #grid {
     position: relative;
     bottom: 3px;
