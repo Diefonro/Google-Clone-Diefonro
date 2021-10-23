@@ -431,6 +431,11 @@ h6 {
   bottom: 20px;
 }
 
+.i-f{
+  text-decoration: none;
+  color: #333;
+}
+
 @media screen and (min-width: 280px) and (max-width: 325px) {
   input {
     width: 75%;
