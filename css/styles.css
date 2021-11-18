@@ -244,6 +244,7 @@ input {
   text-decoration: none;
   padding: 14.5px;
   font-size: 14px;
+  color: #8A8686;
 }
 
 .right-footer a {
@@ -429,6 +430,11 @@ h6 {
   width: 80px;
   position: relative;
   bottom: 20px;
+}
+
+.i-f{
+  text-decoration: none;
+  color: #333;
 }
 
 @media screen and (min-width: 280px) and (max-width: 325px) {
