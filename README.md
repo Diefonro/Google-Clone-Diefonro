@@ -1,6 +1,3 @@
-# Hi 👋 This is Diefonro
-
-A Junior Front End Developer from Colombia
 
 ## Google Clone
 
